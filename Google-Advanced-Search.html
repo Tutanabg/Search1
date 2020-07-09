@@ -102,6 +102,18 @@
                       
                     font size: 5px;
                    }
+            
+               #gri
+                   {
+                    display: grid;
+                       
+                    grid-column-gap: auto;
+                       
+                    grid-row-gap: 200px;
+                       
+                    grid-template-columns: auto auto auto;
+                       
+                   }
 
          </style>
 
@@ -115,6 +127,8 @@
         <form style='flex-flow: row wrap;  flex-direction: column; display: grid;' action="https://google.com/search" name="f">
 
             <div><p id="ad">Advanced Search</p></div>
+            
+           <div id="gri">
 
             <span><p id="fd">Find pages with...</p></span><span><p style='font-size: 17px; font-weight: bold;'>To do this in the search box</p></span>
 
@@ -141,6 +155,8 @@
             <div><input class ="inp" type="text" name="as_eq"></div>
             
             <div><lable>Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</lable></div>
+               
+            </div>
 
             <div><input id="sub" type="submit" value="Advanced Search" aria-label="Advanced Search"></div>
 
