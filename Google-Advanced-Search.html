@@ -112,25 +112,37 @@
 
           <a id="con" href="Google Search.html">Google Search</a> 
 
-        <form action="https://google.com/search" name="f">
+        <form style='display: flex; flex-flow: row wrap; align-items: center;' action="https://google.com/search" name="f">
 
             <div><p id="ad">Advanced Search</p></div>
 
             <div><p id="fd">Find pages with...</p></div>
+            
+            <div><p style='font-size: 17px; font-weight: bold;'>To do this in the search box</p></div>
 
-            <div><lable>all these words:</lable></div> <div><input class ="inp" type="text" name="as_q"> </div> <div><lable>all these words:</lable></div>
+            <div><lable>all these words:</lable></div> 
+            
+            <div><input class ="inp" type="text" name="as_q"> 
+            
+            </div> <div><lable>Type the important words:  tricolor rat terrier</lable></div>
 
             <div><lable> this exact word or phrase:</lable></div>
 
             <div><input class ="inp" type="text" name="as_epq"></div>
+            
+            <div><lable> Put exact words in quotes:  "rat terrier"</lable></div>
 
             <div><lable>any of these words:</lable></div>
 
             <div><input class ="inp" type="text" name="as_oq"></div>
+            
+            <div><lable>Type OR between all the words you want:  miniature OR standard</lable></div>
 
             <div><lable>none of these words:</lable></div>
 
             <div><input class ="inp" type="text" name="as_eq"></div>
+            
+            <div><lable>Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</lable></div>
 
             <div><input id="sub" type="submit" value="Advanced Search" aria-label="Advanced Search"></div>
 
