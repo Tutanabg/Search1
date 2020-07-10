@@ -19,45 +19,33 @@
 
         <style>
 
+          form.do button 
+               {
+                float: left;
 
+                width: 20%;
 
-         * {
-  box-sizing: border-box;
-}
+                padding: 10px;
 
-/* Style the search field */
-form.example input[type=text] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 80%;
-  background: #f1f1f1;
-}
+                background: #2196F3;
 
-/* Style the submit button */
-form.example button {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  background: #2196F3;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
-  cursor: pointer;
-}
+                color: white;
 
-form.example button:hover {
-  background: #0b7dda;
-}
+                font-size: 17px;
 
-/* Clear floats */
-form.example::after {
-  content: "";
-  clear: both;
-  display: table;
-            
+                border: 1px solid grey;
+
+                border-left: none; 
+
+                cursor: pointer;
+
+                border-radius: 2px;
+
+                border-bottom-right-radius: 20px;
+
+                border-top-right-radius: 20px;
+               }
+
                  a
                   {
                   color:grey; 
@@ -69,38 +57,7 @@ form.example::after {
                 {
                  margin: 0  0;
                  }
-
-             #bn
-                {
-                 
-
-                  border-radius: 2px;
-
-                  border-bottom-right-radius: 20px;
-
-                  border-top-right-radius: 20px;
-
-                  box-sizing: border-box;
-
-                  height: 45px;
-
-                  padding: 0;
-
-                  position:absolute; right:-136px; top:8px; width:40px;
-
-                  color: #87CEFA;
-
-                  background: none;
-
-                  margin: 0 8px; 
-                    
-                  border-width: 1px;  
-                    
-                  border-color: #e7e7e7;
-                    
-                  display: inline-block;
-                }
-
+                   
               .form
                 {
                   border-radius: 30%;
@@ -117,7 +74,7 @@ form.example::after {
      
                   display: inline-block;
 
-                  width: 60%;
+                  
 
                   text-align: center;
 
@@ -130,7 +87,18 @@ form.example::after {
                   border-color: #e7e7e7;
                     
                   position:absolute;
-            
+
+                  padding: 10px;
+
+                  font-size: 17px;
+
+                  border: 1px solid grey;
+
+                  float: left;
+
+                  width: 80%;
+                  
+                  box-sizing: border-box;
                  }
   
             
@@ -158,7 +126,6 @@ form.example::after {
 
                 #le
                   {
-                  
 
                   margin: 0px;
 
@@ -228,17 +195,17 @@ form.example::after {
  
          <p id="le">Images</p>
 
-
-
          </div>
 
          <div>
 
-             <form class="form" action="https://www.google.com/images">
+             <form class="do" action="https://www.google.com/images">
 
                   <input type="hidden" name="Language" value="English">
 
-                  <input class="form" type="text" name="q" style="text-align: left;" ><button id="bn" name="btnG"  type="submit" value=""><i style='font-size: 18px;' class="fa fa-search"></i></button>
+                  <input class="form" type="text" name="q" style="text-align: left;" >
+
+                 <button id="bn" name="btnG"  type="submit" value=""><i style='font-size: 18px;' class="fa fa-search"></i></button>
 
                </form>
 
@@ -255,19 +222,6 @@ form.example::after {
            <a  id="d" href="https://policies.google.com/terms"> Terms </a> 
 
        </div>
-
-    <!-- The form -->
-<form class="example" action="action_page.php">
-  <input type="text" placeholder="Search.." name="search">
-  <button type="submit"><i class="fa fa-search"></i></button>
-</form>
-
-
-
-
-
-
-
 
     </body>
 
