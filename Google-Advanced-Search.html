@@ -99,9 +99,9 @@
                        
                     grid-column-gap: auto;
                        
-                    grid-row-gap: 20px;
+                    grid-row-gap: auto;
                        
-                    grid-template-columns: auto auto auto;
+                    
                    }
 
          </style>
@@ -119,35 +119,50 @@
             
            <div id="gri">
 
-            <div class="col-4" ><p id="fd">Find pages with...</p></div>
+            <div grid-column-start: 1;
+  grid-column-end: 2; ><p id="fd">Find pages with...</p></div>
                
-            <div class="col-4"></div>
+            <div     grid-column-start: 2;
+  grid-column-end: 3;     ></div>
                
-            <div class="col-4"><p>To do this in the search box</p></div>
+            <div    grid-column-start: 3;
+  grid-column-end: 4;    ><p>To do this in the search box</p></div>
 
-            <div class="col-4"><lable>all these words:</lable></div> 
+            <div    grid-column-start: 1;
+  grid-column-end: 2;   ><lable>all these words:</lable></div> 
             
-            <div class="col-4"><input class ="inp" type="text" name="as_q"></div> 
+            <div      grid-column-start: 2;
+  grid-column-end: 3;    ><input class ="inp" type="text" name="as_q"></div> 
                
-            <div class="col-4"><lable>Type the important words:  tricolor rat terrier</lable></div>
+            <div     grid-column-start: 3;
+  grid-column-end: 4;    ><lable>Type the important words:  tricolor rat terrier</lable></div>
 
-            <div class="col-4"><lable> this exact word or phrase:</lable></div>
+            <div      grid-column-start: 1;
+  grid-column-end: 2;   ><lable> this exact word or phrase:</lable></div>
 
-            <div class="col-4"><input class ="inp" type="text" name="as_epq"></div>
+            <div    grid-column-start: 2;
+  grid-column-end: 3;   ><input class ="inp" type="text" name="as_epq"></div>
             
-            <div class="col-4"><lable> Put exact words in quotes:  "rat terrier"</lable></div>
+            <div    grid-column-start: 3;
+  grid-column-end: 4;    ><lable> Put exact words in quotes:  "rat terrier"</lable></div>
 
-            <div class="col-4"><lable>any of these words:</lable></div>
+            <div    grid-column-start: 1;
+  grid-column-end: 2;    ><lable>any of these words:</lable></div>
 
-            <div class="col-4"><input class ="inp" type="text" name="as_oq"></div>
+            <div     grid-column-start: 2;
+  grid-column-end: 3;   ><input class ="inp" type="text" name="as_oq"></div>
             
-            <div class="col-4"><lable>Type OR between all the words you want:  miniature OR standard</lable></div>
+            <div    grid-column-start: 3;
+  grid-column-end: 4;     ><lable>Type OR between all the words you want:  miniature OR standard</lable></div>
 
-            <div class="col-4"><lable>none of these words:</lable></div>
+            <div       grid-column-start: 1;
+  grid-column-end: 2;     ><lable>none of these words:</lable></div>
 
-            <div class="col-4"><input class ="inp" type="text" name="as_eq"></div>
+            <div     grid-column-start: 2;
+  grid-column-end: 3;    ><input class ="inp" type="text" name="as_eq"></div>
             
-            <div class="col-4"><lable>Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</lable></div>
+            <div    grid-column-start: 3;
+  grid-column-end: 4;     ><lable>Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</lable></div>
                
             </div>
 
