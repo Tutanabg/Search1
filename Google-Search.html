@@ -12,18 +12,6 @@
 
       <style>
 
-           ul 
-           {
-            list-style-type: none;
-               
-            overflow: hidden;
-           }
-
-           li
-           {
-            float: right;
-           }
-
            a 
            {
             color: #808080;
@@ -36,42 +24,14 @@
             text-decoration: underline;
            }
           
-          .grid
-           {
-            height:23px;
-               
-            position:relative;
-               
-            bottom:4px;
-           }
-          
-          .signbutton
-           {
-            background-color: #4885ed;
-               
-            color: #fff;
-               
-            border:none;
-               
-            border-radius:3px;
-               
-            padding:7px 10px;
-               
-            position:relative;
-               
-            bottom:7px;
-               
-            font-weight:bold;
-           }
-          
-          .logo
+          #sn
            {
             margin-top:200px;
                
             margin-bottom:20px;
            }
           
-          .bar
+          #frm
            {
             margin:0 auto;
                
@@ -80,31 +40,16 @@
             border-radius:30px;
                
             border:1px solid #dcdcdc;
-           }
           
-          .bar:hover
-           {
-            box-shadow: 1px 1px 8px 1px #dcdcdc;
-           }
-          
-          .bar:focus-within
-           {
             box-shadow: 1px 1px 8px 1px #dcdcdc;
                
             outline:none;
-           }
-          
-          .searchbar
-           {
+           
             height:45px;
                
             border:none;
                
-            width:500px;
-               
             font-size:16px;
-               
-            outline: none;
            }
           
           .form
@@ -212,7 +157,7 @@
                
          </header>
               
-      <div class="logo">
+      <div id="sn">
           
        <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
           
@@ -220,19 +165,15 @@
               
     <form  action="https://google.com/search"> 
          
-      <div class="bar">
-          
-         <input class="searchbar" type="text" title="Search" name="q">
+         <input id="frm" type="text" title="Search" name="q">
                    
-      </div>
-              
-      <div class="form">
+         <input class="form" type="submit" value="Google Search">
           
-         <input  type="submit" value="Google Search">
+         <input class="form" type="submit" value="I'm Feeling Lucky" name="btnl">
           
-         <input  type="submit" name="btnl" value="I'm Feeling Lucky">
+         <input type="hidden" value="English" name="Language">
           
-      </div>
+      
       
     </form>
               
