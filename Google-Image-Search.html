@@ -68,6 +68,31 @@
             left:10px;
            }
 
+           #bn
+                {
+                  border: 1px;
+
+                  border-radius: 2px;
+
+                  border-bottom-right-radius: 20px;
+
+                  border-top-right-radius: 20px;
+
+                  box-sizing: border-box;
+
+                  height: 40px;
+
+                  padding: 0;
+
+                  position:absolute; right:50px; top:112px; width:40px;
+
+                  color: white;
+
+                  background-color: #4169E1;
+
+                  margin: -5px;
+                }
+
           #le
            {
             margin: 5px;
@@ -100,14 +125,18 @@
       <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"><p id="le">Images</p>
 
     </div>
+  
+      <form action="www.google.com/images">
 
-      <input type="hidden" value="English" name="Language">
+          <input type="hidden" value="English" name="Language">
 
-      <input class="frm" type="text" title="Search">
+          <input class="frm" type="text" title="Search">
 
-      <a href="www.google.com/images"> <img class="voice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png" title="Search by Voice"></a>
+          <a href="www.google.com/images"> <img class="voice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png" title="Search by Voice"></a>
 
-    
+          <button id="bn" name="btnG"  type="submit" value=""><i style="font-size: 18px;" class="fa fa-search"></i></button>
+
+      </form>
 
     </body>
 
