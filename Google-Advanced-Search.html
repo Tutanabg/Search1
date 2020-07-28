@@ -93,7 +93,7 @@
                     position: absolute; bottom:100px; left:300px;
                    }
             
-               .grid-item
+               .grid-container
                    {
                     display: grid;
                                                              
@@ -109,6 +109,15 @@
                    
                     padding: 10px;
                    }
+            
+             .grid-container > div 
+                   {
+                       
+                     text-align: center;
+                       
+                     padding: 20px 0;
+                   
+                   }
          </style>
 
     
@@ -122,7 +131,7 @@
 
             <div><p id="ad">Advanced Search</p></div>
             
-         
+         <div class="grid-container">
 
             <div class="grid-item"><p id="fd">Find pages with...</p></div>
                
@@ -154,7 +163,7 @@
             
             <span class="grid-item"><lable>Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</lable></span><br></br>
                
-           
+         </div>
 
             <div><input id="sub" type="submit" value="Advanced Search" aria-label="Advanced Search"></div>
 
