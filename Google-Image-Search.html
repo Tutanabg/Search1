@@ -11,12 +11,7 @@
        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
       <style>
-           .logo
-           {
-            margin-top:200px;
-               
-            margin-bottom:20px;
-           }
+
            a 
            {
             color: #808080;
@@ -36,100 +31,173 @@
             margin-bottom:20px;
            }
           
-         
+          #frm
+           {
+            margin:0 auto;
+               
+            width:575px;
+               
+            border-radius:30px;
+               
+            border:1px solid #dcdcdc;
+          
+            box-shadow: 1px 1px 8px 1px #dcdcdc;
+               
+            outline:none;
+           
+            height:45px;
+               
+            border:none;
+               
+            font-size:16px;
+           }
+          
+          .form
+           {
+            margin-top:30px;
+                     
+            background-color: #f5f5f5;
+               
+            border:none;
+               
+            color:#707070;
+               
+            font-size:15px;
+               
+            padding: 10px 20px;
+               
+            margin:5px;
+               
+            border-radius:4px;
+               
+            outline:none;
+           }
           
           
           #con
            {
-            position: absolute; right:10px; top:0px;
+            position: absolute; right:100px; top:0px;
            }
-
-          .voice
+          #lon
            {
-            height:20px;
-
-            position:relative;
-
-            top:5px;
-
-            left:10px;
+            position: absolute; right:0px; top:0px;
            }
-
-           #bn
-                {
-                  border: 1px;
-
-                  border-radius: 2px;
-
-                  border-bottom-right-radius: 20px;
-
-                  border-top-right-radius: 20px;
-
-                  box-sizing: border-box;
-
-                  height: 43px;
-
-                  padding: 0;
-
-                  position:absolute; right:618px; top:415px; width:40px;
-
-                  color: white;
-
-                  background-color: none;
-
-                  margin: -5px;
-                }
-
-          #le
+          
+          #gm
            {
-            margin: 5px;
-
-            color: #0070ff;
-
-            font-size:15px;
-
-            position:relative; top:-20px; right:0px; bottom:50px; left:100px; 
+            position: absolute; left:0px; top:0px;
+           }
+          
+          #m
+           {
+            position: absolute; left:100px; top:0px;
+           }
+          
+          #g
+           {
+            position: absolute; left:50px; top:0px;
+           }
+          
+          #a
+           {
+            position: absolute; left:10px; bottom:0px;
+           }
+          
+          #b
+           {
+            position: absolute; left:100px; bottom:0px;
+           }
+          
+          #c
+           {
+            position: absolute; right:100px; bottom:0px;
+           }
+          
+          #d
+           {
+            position: absolute; right:10px; bottom:0px;
+           }
+          
+          #clr
+           {
+            background-color: #eee;
+               
+            width:100%;
+               
+            margin-bottom: 0px;
+               
+            margin-left: 0px;
+               
+            padding: 10px 3px;
+               
+            border: 5px;
+               
+            position:absolute; right:0px; bottom: 0px;   
            }
 
-
-       </style>
+      </style>
 
     </head>
 
     <body>
+
+          <center>
+              
+           <header>
+               
+              <a id="gm" href="https://mail.google.com"> Gmail</a> 
+
+              <a id="g"  href="https://about.google.com"> About</a> 
+
+              <a id="m"  href="https://store.google.com"> Store</a> 
+              
+              <a id="con" href="Google-Image-Search.html"> Image Search</a>  
+
+              <a id="lon" href="Google-Advanced-Search.html"> Adv. Search</a>  
+               
+         </header>
+              
+      <div id="sn">
+          
+       <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+          
+      </div>
+              
+    <form  action="https://google.com/search"> 
+         
+        <input id="frm" type="text" title="Search" name="q"><br></br>
+                   
+         <input class="form" type="submit" value="Google Search"> <a href="www.google.com/images"> <img class="voice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png" title="Search by Voice"></a>
+          
+         <input class="form" type="submit" value="I'm Feeling Lucky" name="btnI">
+          
+         <input type="hidden" value="English" name="Language">
+          
       
-     <center>
+      
+    </form>
+              
+    <footer>
+        
+         <div id="clr">
+    
+            <a  id="a" href="https://ads.google.com">Advertising</a> 
 
-     <header>
+            <a  id="b" href="https://siness.google.com"> Business </a> 
 
-         <a id="con" href="Google-Search.html" style='color:grey; font-size:15px;'> Google Search</a>  
-<br></br>
+            <a  id="c" href="https://policies.google.com"> Privacy </a> 
 
-    </header>
+            <a  id="d" href="https://policies.google.com/terms"> Terms </a> 
 
-    <div class="logo">
-
-      <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"><p id="le">Images</p>
-
-    </div>
-  
-      <form action="www.google.com/images">
-
-          <input type="hidden" value="English" name="Language">
-
-          <input class="frm" type="text" title="Search">
-
-          <a href="www.google.com/images"> <img class="voice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png" title="Search by Voice"></a>
-
-          <button id="bn" name="btnG"  type="submit" value=""><i style="font-size: 18px;" class="fa fa-search"></i></button>
-
-      </form>
-
+         </div>
+        
+    </footer>
+              
     </body>
 
 </html>
-
-       
+  
+      
 
 
 
