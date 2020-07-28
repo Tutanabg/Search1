@@ -95,7 +95,9 @@
             
                .grid-container 
                    {
-                    display: inline-grid;
+                    display: flex;
+                       
+                    flex-direction: row;
                        
                     grid-template-columns: auto auto auto;
                        
@@ -103,7 +105,10 @@
                        
                     height: 50px;
                        
-                    
+                   flex-wrap: wrap;
+                       
+                   align-content: space-between;
+  
                    }
 
                .grid-item 
