@@ -1,1 +1,39 @@
-h1
+
+            
+           
+            li
+            {
+                display: inline;
+                float: left;
+                border-right: 1px solid #bbb;
+            }
+           li a
+            {
+                display: block;
+                padding: 14px 16px;
+                text-align: center;
+                margin: 0;
+                font-size: 30px;
+            }
+            ul
+            {
+                background-color: #B0E0E6;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+            p
+            {
+                font-size: 40px;
+                text-align: center;
+                font-weight: bold;
+            }
+            body
+            {
+                background-color:#87CEFA;
+            }
+            
