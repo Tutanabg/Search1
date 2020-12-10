@@ -1,9 +1,9 @@
 class App extends React.Component{
 	render(){
 	  return(
-		<div id="input">
-		 <h1>hello</h1>
-		</div>
+		<p id="input">
+		 <h1>This Website is designed to create simple Google Search websites.</h1>
+		</p>
                 );
                 }
 }
