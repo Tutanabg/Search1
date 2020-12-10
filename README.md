@@ -1,2 +1,1 @@
-# Harvard-2020-Project-0
-Project-0
+This web app is Google like search.
