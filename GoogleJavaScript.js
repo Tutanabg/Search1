@@ -1,12 +1,12 @@
 class App extends React.Component{
 	render(){
 	  return(
-		<p id="input">
+		<div>
 		 <h1>This Website is designed to create simple Google Search websites.</h1>
-		</p>
+		</div>
                 );
                 }
 }
-ReactDOM.render(<App />, document.querySelector('#me'));
+ReactDOM.render(<App />, document.querySelector('#input'));
 
 
