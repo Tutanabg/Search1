@@ -1,1 +1,1 @@
-This web app is Google like search.
+This app is a front-end for Google Search, Google Image Search, and Google Advanced Search.
